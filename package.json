@@ -7,16 +7,20 @@
     "type": "git",
     "url": "http://github.com/indexzero/winston-couchdb"
   },
-  "keywords": ["logging", "sysadmin", "tools", "winston", "couchdb"],
+  "keywords": [ "logging", "sysadmin", "tools", "winston", "couchdb" ],
   "dependencies": {
-    "cradle": "0.6.x",
-    "cycle": "1.0.x"
+    "cradle": "~0.6.6",
+    "cycle": "~1.0.3"
   },
   "devDependencies": {
-    "winston": "0.6.x",
-    "vows": "0.6.x"
+    "winston": "~0.7.2",
+    "vows": "~0.7.0"
   },
   "main": "./lib/winston-couchdb",
-  "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.8.0" }
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
 }
