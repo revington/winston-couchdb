@@ -9,4 +9,3 @@ create-db:
 
 destroy-db:
 	@curl -X DELETE 127.0.0.1:5984/winston-couch-test
-
